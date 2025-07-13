@@ -15,18 +15,18 @@ const Contact: React.FC = () => {
             <p><strong>Email:</strong> saeroninc@gmail.com</p>
           </Col>
           <Col md={6}>
-            <Form>
+            <Form action="https://formsubmit.co/saeroninc@gmail.com" method="POST">
               <Form.Group className="mb-3" controlId="formGroupName">
                 <Form.Label>Name</Form.Label>
-                <Form.Control type="text" placeholder="Enter your name" />
+                <Form.Control type="text" placeholder="Enter your name" name="name" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formGroupEmail">
                 <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter your email" />
+                <Form.Control type="email" placeholder="Enter your email" name="email" />
               </Form.Group>
               <Form.Group className="mb-3" controlId="formGroupMessage">
                 <Form.Label>Message</Form.Label>
-                <Form.Control as="textarea" rows={3} placeholder="Your message" />
+                <Form.Control as="textarea" rows={3} placeholder="Your message" name="message" />
               </Form.Group>
               <Button variant="primary" type="submit">
                 Submit
