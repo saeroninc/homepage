@@ -9,10 +9,10 @@ const Contact: React.FC = () => {
         <h2 className="text-center mb-4">Contact Us</h2>
         <Row>
           <Col md={6} className="mb-4">
-            <h4>Searon</h4>
+            <h4>Saeron</h4>
             <p>162-29 Songjeong-ro, Madong-myeon, Hwaseong-si, Gyeonggi-do, Republic of Korea 18540</p>
             <p><strong>Phone:</strong> +82 10-4615-8749</p>
-            <p><strong>Email:</strong> searoninc@gmail.com</p>
+            <p><strong>Email:</strong> saeroninc@gmail.com</p>
           </Col>
           <Col md={6}>
             <Form>

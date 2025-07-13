@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="py-4 bg-dark text-white text-center">
       <Container>
-        <p>&copy; {new Date().getFullYear()} Searon. All Rights Reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Saeron. All Rights Reserved.</p>
       </Container>
     </footer>
   );

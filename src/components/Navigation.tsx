@@ -8,13 +8,13 @@ const Navigation: React.FC = () => {
       <Container>
         <Navbar.Brand href="#home">
           <img
-            alt="Searon Logo"
+            alt="Saeron Logo"
             src="https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&dpr=2" // Small gear icon
             width="30"
             height="30"
             className="d-inline-block align-top me-2"
           />{' '}
-          Searon
+          Saeron
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
